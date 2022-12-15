@@ -43,14 +43,18 @@ function App() {
           <Route
             // shows AboutPage at all times (logged in or not)
             exact
-            path="/about"
+            path="/home"
           >
-            <AboutPage />
+            <LandingPage />
           </Route>
           
           <Route 
             exact path="/info">
               <InfoPage />
+          </Route>
+
+          <Route exact path='/about'>
+            <AboutPage />
           </Route>
 
           {/* For protected routes, the view could show one of several things on the same route.

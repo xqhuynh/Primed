@@ -18,16 +18,20 @@ function Nav() {
         {!user.id && (
           // If there's no user, show login/registration links
           <>
-          <Link className="navLink" to="/about">
-          About
+          <Link className="navLink" to="/home">
+          Home
           </Link>
 
           <Link className="navLink" to="/info">
-              Info Page
+              Portfolios
+          </Link>
+
+          <Link className='navLink' to='/about'>
+            About
           </Link>
 
           <Link className="navLink" to="/login">
-            Login / Register
+            Login / Sign Up
           </Link>
           </>
 
