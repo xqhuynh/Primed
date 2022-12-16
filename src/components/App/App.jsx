@@ -41,15 +41,12 @@ function App() {
 
           {/* Visiting localhost:3000/about will show the about page. */}
           <Route
-            // shows AboutPage at all times (logged in or not)
-            exact
-            path="/home"
-          >
+            // shows Landing page at all times (logged in or not)
+            exact path="/home">
             <LandingPage />
           </Route>
           
-          <Route 
-            exact path="/info">
+          <Route exact path="/info">
               <InfoPage />
           </Route>
 
@@ -69,10 +66,7 @@ function App() {
             <UserPage />
           </ProtectedRoute>
 
-          <Route
-            exact
-            path="/login"
-          >
+          <Route exactpath="/login">
             {user.id ?
               // If the user is already logged in, 
               // redirect to the /user page
@@ -83,10 +77,7 @@ function App() {
             }
           </Route>
 
-          <Route
-            exact
-            path="/registration"
-          >
+          <Route exact path="/registration">           
             {user.id ?
               // If the user is already logged in, 
               // redirect them to the /user page
@@ -97,10 +88,7 @@ function App() {
             }
           </Route>
 
-          <Route
-            exact
-            path="/home"
-          >
+          <Route exact path="/home">
             {user.id ?
               // If the user is already logged in, 
               // redirect them to the /user page
