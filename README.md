@@ -1,6 +1,6 @@
 
 # Primed (Working project)
-This is a personal, working project in the development stages. The goal of this web application is to connect aspiring software engineers with employers. This is done by showcasing the software engineer's portfolio. Employers can view and intereact with the software engineer's profile. 
+This is a personal, working project in the development stages. The goal of this web application is to connect aspiring software engineers with employers. This is done by showcasing the software engineer's portfolio. Employers can view and interact with the software engineer's profile. 
 
 ## Screenshot 
 
